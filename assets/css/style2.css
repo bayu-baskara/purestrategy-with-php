@@ -1,0 +1,141 @@
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900');
+
+.clear {
+    clear: both
+}
+
+::-moz-selection {
+    background: #00b0ff;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #00b0ff;
+    color: #fff;
+    text-shadow: none;
+}
+
+.no-mar {
+    margin: 0!important;
+}
+
+.no-pad {
+    padding: 0!important;
+}
+
+.no-top-pad {
+    padding-top: 0!important;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bg-theme {
+    background-color: #ef525b;
+}
+
+.bg-gray {
+    background-color: #fafafa;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 0;
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #B19CD9;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #888;
+    line-height: 30px;
+    -webkit-font-smoothing: antialiased;
+    /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button,
+input,
+textarea {
+    letter-spacing: 1px;
+}
+
+.contact-form{
+    background: #fff;
+    margin-top: 16.5%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+/*===========================
+2.3 Service Area
+===========================*/
+
+.service-area {
+    position: relative;
+    margin: 50px;
+    background-color: transparent;
+}
+
+.service-area h3{
+    position: relative;
+    margin-bottom: 30px;
+    color: #B19CD9;
+}
+
+.service-single {
+    padding: 40px 0px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-single h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #B19CD9;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+
+.service-single p {
+    font-weight: 500;
+    color: #B19CD9;
+    font-size: 15px;
+}
+
+
+/*===========================
+END Service Area
+===========================*/
